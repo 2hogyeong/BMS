@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.bms.admin.notice.dto.NoticeDTO;
 
-public interface AdminNoticeService {
+public interface AdminNoticeService {  
 
 	public void insertNotice(NoticeDTO ndto) throws Exception;
 	public List<NoticeDTO> allNotice() throws Exception;
